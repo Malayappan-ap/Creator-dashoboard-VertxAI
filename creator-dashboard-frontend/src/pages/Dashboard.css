@@ -1,0 +1,77 @@
+/* Dashboard Component */
+.dashboard-container {
+    background: linear-gradient(145deg, #6a11cb 0%, #2575fc 100%);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .dashboard-header button {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dashboard-header button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+  }
+  
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .card-footer button {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .card-footer button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+  }
+  
